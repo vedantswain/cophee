@@ -1,0 +1,39 @@
+domain: cophee-lab.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+url: https://cophee.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+
+remote_theme: pages-themes/minimal@v0.2.0
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-remote-theme 
+  - jekyll-scholar
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+# # Content configuration
+# ## Basic Information
+name: COPHEE Lab
+description: COPHEE lab's website
+fullform: (CO)mputing for (P)erformance, (H)ealth, and (E)mpathetic (E)xperiences
+affiliation: New York University
+email: v.dasswain@northeastern.edu
+
+# ## Social Media
+# google_scholar: https://scholar.google.com/citations?user=x7mC-94AAAAJ&hl=en
+# cv_link: assets/files/vedantswain_resume.pdf
+# linkedin: https://www.linkedin.com/in/vedant-das-swain/
+# twitter: https://twitter.com/VedantNeedMoEdu
+# bluesky: https://bsky.app/profile/vedantneedmoedu.bsky.social
+
+# ## Images (e.g., your profile picture and your website's favicon) 
+avatar: assets/images/avatar.jpg
+favicon: assets/images/favicon.ico
+
+# ## Tracking
+# googletag_id: G-ZFVZQV5NHX

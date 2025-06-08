@@ -1,0 +1,11 @@
+- description: "Trivia: "
+  type: reading
+  icon: "fa-solid fa-book"
+
+- description: "Kagurabachi by Takeru Hokazono"
+  type: reading
+  icon: "fa-solid fa-book"
+
+- description: "Astral Ascent"
+  type: gaming
+  icon: "fa-solid fa-gamepad"
