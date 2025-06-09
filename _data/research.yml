@@ -1,0 +1,17 @@
+- title: "Human-Centered ML"
+  description: "Existing approaches to understanding workers with data rarely consider worker perspectives. We engage with data-subjects, like workers, to derive new designs for estimating behavioral health and guide these models to align ethically and practically with their social context."
+  image: "/assets/images/research/psai_vignette.png"
+  alt: "Human-Centered ML"
+  featured_papers: ["swain_sensible_sensitive_2024", "swain_semantic_gap_2022" , "swain_power_punishment_2023"]
+
+- title: "Social-Ecological Informatics"
+  description: "Traditional ways of describing workers do not reflect how social relationships affect their behaviors. We contextualize situations with multimodal data and demonstrate computational models that highlight overlooked factors associated with healthier organizational practices."
+  image: "/assets/images/research/glassdoor_culture.png"
+  alt: "Social-Ecological Informatics"
+  featured_papers: ["swain_wifi_covid_2023", "swain_glassdoor_culture_2020", "swain_birds_feather_2019"]
+
+- title: "Digital Wellbeing Interventions"
+  description: "Performance and wellness are often viewed as mutually exclusive, but we show that we can augment work routines to ensure sustainable effectiveness. We develop AI and computational applications for task-level and day-level activities to mitigate negative challenges to mental health."
+  image: "/assets/images/research/carepilot_demands.png"
+  alt: "Digital Wellbeing Interventions"
+  featured_papers: ["swain_ai_shoulder_2025", "swain_focused_time_2023"]

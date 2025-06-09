@@ -18,9 +18,9 @@ defaults:
 
 # # Content configuration
 # ## Basic Information
-name: COPHEE Lab
+name: COPHEE @ NYU
 description: COPHEE lab's website
-fullform: (CO)mputing for (P)erformance, (H)ealth, and (E)mpathetic (E)xperiences
+fullform: COmputing for Performance, Health, and Empathetic Experiences
 affiliation: Tandon School of Engineering at New York University
 email: v.dasswain@northeastern.edu
 
