@@ -3,7 +3,7 @@
 {% for item in site.data.activity %}
 <small>
   <i class="{{ item.icon }}"></i>
-  {{ item.description }}
+  <a href="{{ item.link }}">{{ item.description }}</a>
 </small></br>
 {% endfor %}
 </p>

@@ -1,11 +1,3 @@
-- description: "Trivia: "
-  type: reading
-  icon: "fa-solid fa-book"
-
-- description: "Kagurabachi by Takeru Hokazono"
-  type: reading
-  icon: "fa-solid fa-book"
-
-- description: "Astral Ascent"
-  type: gaming
-  icon: "fa-solid fa-gamepad"
+- description: "GLITCH COFFEE OSAKA"
+  link: https://g.co/kgs/11WrxyU
+  icon: "fa-solid fa-coffee"

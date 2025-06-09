@@ -1,3 +1,9 @@
+faculty:
+- name: "Vedant Das Swain"
+  link: https://www.vedantswain.com/
+  role: "Assistant Professor"
+  affiliation: "Tandon School of Engineering at NYU"
+
 students:
 - name: "Alex Jeon"
   link: https://www.linkedin.com/in/alexjyc/

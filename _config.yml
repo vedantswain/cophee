@@ -21,7 +21,7 @@ defaults:
 name: COPHEE Lab
 description: COPHEE lab's website
 fullform: (CO)mputing for (P)erformance, (H)ealth, and (E)mpathetic (E)xperiences
-affiliation: New York University
+affiliation: Tandon School of Engineering at New York University
 email: v.dasswain@northeastern.edu
 
 # ## Social Media
@@ -32,7 +32,7 @@ email: v.dasswain@northeastern.edu
 # bluesky: https://bsky.app/profile/vedantneedmoedu.bsky.social
 
 # ## Images (e.g., your profile picture and your website's favicon) 
-avatar: assets/images/avatar.jpg
+avatar: assets/images/avatar.png
 favicon: assets/images/favicon.ico
 
 # ## Tracking
