@@ -6,8 +6,17 @@
 ### Faculty
 
 {% for faculty in site.data.people.faculty %}
-  <a href="{{ faculty.link }}">{{ faculty.name }}</a>&mdash; {{ faculty.role }}, {{ faculty.affiliation }}
+<div class="people core">
+  {% if faculty.image %}
+   <img src="{{ faculty.image }}" alt="{{ faculty.name }}" class="faculty-image" />
+  {% endif %}
+  <p>
+  <a href="{{ faculty.link }}">{{ faculty.name }}</a> &mdash; {{ faculty.role }}
+  {{ faculty.affiliation }}
+  </p>
+</div>
 {% endfor %}
+
 
 ### Students
 

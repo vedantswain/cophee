@@ -3,16 +3,32 @@
 
 ## Research
 
-We leverage interdisciplinary approaches anchored around technological innovation to envision a new future of work and wellbeing.
+We leverage interdisciplinary approaches anchored around technological innovation to envision a new future of work and wellbeing. Our studies aim to contribute to the following intersecting areas. 
 
-**Human-Centered ML:**
-Existing approaches to understand workers with data, rarely consider worker perspectives. We engage with data-subjects, like workers, to derive new designs for estimating behavioral health and guide these models to align ethically and practically with their social context.
-
-**Social-Ecological Informatics:**
-Traditional ways of describing workers does not reflect how social relationships affect their behaviors. We contextualize situations with multimodal data and demonstrate computational models that highlight overlooked factors associated with healthier organizational practices.
-
-**Digital Wellbeing Interventions:**
-Performance and wellness are often viewed as mutually exclusive, but we show that we can augment work routines to ensure sustainable effectiveness. We develop AI and computational applications for task-level and day-level activities to mitigate negative challenges to mental health.
+<div class="research-grid">
+  {% for item in site.data.research %}
+  <div class="research-item">
+    <div class="research-content">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      {% if item.featured_papers %}
+      <div class="featured-papers">
+        <strong>Featured:</strong>
+        {% for paper_id in item.featured_papers %}
+          {% assign paper = site.data.bibliography | where: "id", paper_id | first %}
+          {% if paper and paper.internal_link %}
+            <a href="{{ site.baseurl }}{{ paper.internal_link }}" target="_blank">{{ paper.venue }}</a>{% unless forloop.last %}, {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    <div class="research-image">
+      <img src="{{ site.baseurl }}{{ item.image }}" alt="{{ item.alt }}" />
+    </div>
+  </div>
+  {% endfor %}
+</div>
 
 For all published research, refer to Prof. Das Swain's [Google Scholar profile]({{ site.google_scholar }})
 

@@ -3,6 +3,7 @@ faculty:
   link: https://www.vedantswain.com/
   role: "Assistant Professor"
   affiliation: "Tandon School of Engineering at NYU"
+  image: assets/images/people/vds.jpg
 
 students:
 - name: "Alex Jeon"
