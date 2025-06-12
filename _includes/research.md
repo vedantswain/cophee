@@ -1,5 +1,5 @@
 <!-- anchor hook for navbar -->
-<span id="publications"></span>
+<span id="research"></span>
 
 ## Research
 
