@@ -2,7 +2,7 @@
 <span id="news"></span>
 
 <!-- pinned -->
-> **🔊 Prospective Students:** Read my [advising statement](/advising) before proceeding. We're looking for 1–2 PhD students for the 2025-26 admission cycle (appointments start in Fall '26). If you're interested, please apply to the PhD program in [Human-Centered Technology, Innovation & Design](https://engineering.nyu.edu/academics/programs/human-centered-technology-innovation-design-phd) and mention my name in your application. If you are interested in a post-doc position, please email me directly.
+> **🔊 Prospective Students:** Read the [advising statement](/advising) before proceeding. We're looking for 1–2 PhD students for the 2025-26 admission cycle (appointments start in Fall '26). If you're interested, please apply to the PhD program in [Human-Centered Technology, Innovation & Design](https://engineering.nyu.edu/academics/programs/human-centered-technology-innovation-design-phd) and mention my name in your application. If you are interested in a post-doc position, please email me directly.
 <!-- ### Recent News -->
 
 <!-- actual news -->

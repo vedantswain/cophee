@@ -6,7 +6,7 @@ title: Advising
 
 # Advising
 
-When selecting a potential advisor, you can go off of my publication record and research vision. While that's important, it's equally important to understand your fit or compatibility with a professor. Research is reflected in [public-facing content]({{ site.url }}{{ site.baseurl }}/#research), but fit is harder to assess beforehand. This page gives you an initial sense of what working with me, Vedant Das Swain, would be like. Please read about the lab's research before proceeding.
+The type of research our group will do is reflected in [public-facing content]({{ site.url }}{{ site.baseurl }}/#research), but fit or compatibility with a professor is harder to assess beforehand. This page gives you an initial sense of what working with me, Vedant Das Swain, would be like. Please read about the lab's research before proceeding.
 
 I have written these to cover common questions and preserve our our one-on-one communications for learning more about you.
 
