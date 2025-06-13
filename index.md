@@ -1,5 +1,6 @@
 ---
 title: Home
+layout: default
 ---
 
 {% include about.md %}
