@@ -8,21 +8,22 @@ plugins:
   - jekyll-seo-tag
   - jekyll-remote-theme 
   - jekyll-scholar
+  - jekyll-toc
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "base"
 
 
 # # Content configuration
 # ## Basic Information
 name: COPHEE @ NYU
 description: COPHEE lab's website
-fullform: COmputing for Performance, Health, and Empathetic Experiences
+fullform: COmputing for Productive, Healthy, and Empathetic Experiences
 affiliation: Tandon School of Engineering at New York University
-email: v.dasswain@northeastern.edu
+email: v.das.swain@nyu.edu
 
 # ## Social Media
 # google_scholar: https://scholar.google.com/citations?user=x7mC-94AAAAJ&hl=en
@@ -37,3 +38,15 @@ favicon: assets/images/favicon.ico
 
 # ## Tracking
 # googletag_id: G-ZFVZQV5NHX
+
+# ## TOC
+toc:
+  min_level: 2
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: toc-entry
+  item_prefix: toc-
