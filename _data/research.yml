@@ -2,7 +2,7 @@
   description: "Existing approaches to understanding workers with data rarely consider worker perspectives. We engage with data-subjects, like workers, to derive new designs for estimating behavioral health and guide these models to align ethically and practically with their social context."
   image: "/assets/images/research/psai_vignette.png"
   alt: "Human-Centered ML"
-  featured_papers: ["swain_sensible_sensitive_2024", "swain_semantic_gap_2022" , "swain_power_punishment_2023"]
+  featured_papers: ["choube_gloss_2025", "swain_sensible_sensitive_2024", "swain_semantic_gap_2022" , "swain_power_punishment_2023"]
 
 - title: "Social-Ecological Informatics"
   description: "Traditional ways of describing workers do not reflect how social relationships affect their behaviors. We contextualize situations with multimodal data and demonstrate computational models that highlight overlooked factors associated with healthier organizational practices."
