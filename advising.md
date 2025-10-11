@@ -8,7 +8,7 @@ toc: true
 
 # Advising
 
-You can read about the [research our group will do]({{ site.url }}{{ site.baseurl }}/#research). This page is get a sense of what working with me, Vedant Das Swain, would be like.
+You can read about the [research our group will do]({{ site.url }}{{ site.baseurl }}/#research). This page is to get a sense of what working with me, Vedant Das Swain, would be like.
 
 ## What qualities are you looking for in your students?
 
