@@ -1,5 +1,5 @@
 domain: cophee-lab.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://cophee.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+url: https://cophee-lab.com  # ← Match your actual domain
 
 remote_theme: pages-themes/minimal@v0.2.0
 
