@@ -24,6 +24,10 @@ students:
 - name: "Kimberly Do"
   link: https://kimberlytdo.github.io/
   role: "Research Associate"
+- name: "Demetri Sebastian Lopez"
+  link: https://github.com/Demetri65
+  role: "Research Associate"
+  tenure: "current"
 
 collaborators:
 - name: "Dr. Javier Hernandez"
