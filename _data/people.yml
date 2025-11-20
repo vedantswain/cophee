@@ -2,22 +2,49 @@ faculty:
 - name: "Vedant Das Swain"
   link: https://www.vedantdasswain.com/
   role: "Assistant Professor"
-  affiliation: "Tandon School of Engineering at NYU"
+  affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/vds.jpg
 
 students:
+## Current Students
+- name: "Demetri Sebastian Lopez"
+  link: https://github.com/Demetri65
+  role: "MS Student"
+  tenure: "current"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/dsl.png
+  year: 2027
+## Template
+# - name: "Full Name"
+#   link: [Personal website or LinkedIn link]
+#   role: [PhD Student / MS Student / Research Assistant / Co-op Position / Fellow etc.]
+#   affiliation: [Department or School Affiliation]
+#   image: assets/images/people/[image filename]
+#   tenure: "current"
+#   year: [Expected Graduation Year]
+
+
+## Former Students
 - name: "Alex Jeon"
   link: https://www.linkedin.com/in/alexjyc/
   role: "Research Engineer"
+  tenure: "past"
+  year: 2025
 - name: "Joy Zhong"
   link: https://www.linkedin.com/in/max-zhong/
   role: "Research Assistant"
+  tenure: "past"
+  year: 2025
 - name: "Olivia Wang"
   link: https://oliviawangdesign.com/
   role: "UX Design & Research Co-op"
+  tenure: "past"
+  year: 2025
 - name: "Win Tongtawee"
   link: https://wintongtawee.dev/
   role: "Full Stack Developer Co-op"
+  tenure: "past"
+  year: 2025
 - name: "Joyce Hsu"
   link: https://www.linkedin.com/in/jo-hsu/
   role: "Khoury Research Apprentice"
