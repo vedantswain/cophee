@@ -3,7 +3,7 @@
 
 ## People
 
-### Faculty
+<!-- ### Faculty -->
 
 {% for faculty in site.data.people.faculty %}
 <div class="people core">
@@ -11,23 +11,40 @@
    <img src="{{ faculty.image }}" alt="{{ faculty.name }}" class="faculty-image" />
   {% endif %}
   <p>
-  <a href="{{ faculty.link }}">{{ faculty.name }}</a> &mdash; {{ faculty.role }}
+  <a href="{{ faculty.link }}">{{ faculty.name }}</a> &mdash; {{ faculty.role }} |
   {{ faculty.affiliation }}
   </p>
 </div>
 {% endfor %}
 
+<!-- ### Current Students -->
+{% for student in site.data.people.students %}
+  {% if student.tenure == "current" %}
+  <div class="people core">
+    {% if student.image %}
+     <img src="{{ student.image }}" alt="{{ student.name }}" class="faculty-image" />
+    {% endif %}
+    <p>
+    <a href="{{ student.link }}">{{ student.name }}</a> &mdash; {{ student.role }}
+    {{ student.affiliation }}
+    </p>
+  </div>
+  {% endif %}
+{% endfor %}
 
-### Students
+
+### Former Students
 
 Prof. Das Swain's fellowship at Northeastern allowed him to act as a Principal Investigator on projects and thus supervise and fund some extremely talented student researchers.  We are now looking to build an equally talented, capable, and responsible research group at NYU.
 
 <ul>
   {% for student in site.data.people.students %}
+  {% if student.tenure == "past" %}
     <li>
       <a href="{{ student.link }}">{{ student.name }}</a>
       &mdash; {{ student.role }}
     </li>
+  {% endif %}
   {% endfor %}
 </ul>
 
