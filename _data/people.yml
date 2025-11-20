@@ -24,6 +24,9 @@ students:
 - name: "Kimberly Do"
   link: https://kimberlytdo.github.io/
   role: "Research Associate"
+- name : "Issac Ting Quan Xian"
+  link: https://zac.wildtingz.com/
+  role: "Research Associate"
 
 collaborators:
 - name: "Dr. Javier Hernandez"
