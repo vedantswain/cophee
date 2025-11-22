@@ -7,6 +7,13 @@ faculty:
 
 students:
 ## Current Students
+- name: "Demetri Sebastian Lopez"
+  link: https://github.com/Demetri65
+  role: "MS Student"
+  tenure: "current"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/dsl.png
+  year: 2027
 ## Template
 # - name: "Full Name"
 #   link: [Personal website or LinkedIn link]
