@@ -194,8 +194,22 @@ footer {
 .people {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+
+    .core{
+      flex-direction: column;
+    }
+
     p {
       margin-left: 1em;
+      margin-bottom: 0px;
+
+      /* TARGETS THE LAST P TAG */
+      &:last-of-type {
+        font-size: 0.85em;    /* Make it smaller */
+        margin-bottom: 10px;  /* Add the margin back */
+        color: #666;          /* Optional: make it lighter (common for subtitles) */
+      }
     }
   
     .faculty-image {
@@ -203,6 +217,9 @@ footer {
       height: auto;
       max-width: 100px;
       border-radius: 50%;
+      aspect-ratio: 1 / 1;  /* Forces the box to be a perfect square */
+      object-fit: cover;    /* Crops the excess edges instead of squashing the image */
+      border: 1px solid #d5d5d5;
     }
 }
 

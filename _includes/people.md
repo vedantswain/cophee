@@ -4,16 +4,15 @@
 ## People
 
 <!-- ### Faculty -->
-
+<div class="people">
 {% for faculty in site.data.people.faculty %}
 <div class="people core">
   {% if faculty.image %}
    <img src="{{ faculty.image }}" alt="{{ faculty.name }}" class="faculty-image" />
   {% endif %}
-  <p>
-  <a href="{{ faculty.link }}">{{ faculty.name }}</a> &mdash; {{ faculty.role }} |
-  {{ faculty.affiliation }}
-  </p>
+  <p><a href="{{ faculty.link }}">{{ faculty.name }}</a></p>
+  <p>{{ faculty.role }}</p> 
+  <p>{{ faculty.affiliation }}</p>
 </div>
 {% endfor %}
 
@@ -24,14 +23,15 @@
     {% if student.image %}
      <img src="{{ student.image }}" alt="{{ student.name }}" class="faculty-image" />
     {% endif %}
-    <p>
-    <a href="{{ student.link }}">{{ student.name }}</a> &mdash; {{ student.role }}
-    {{ student.affiliation }}
-    </p>
+    <p><a href="{{ student.link }}">{{ student.name }}</a></p>
+    <p>{{ student.role }}</p>
+    <p>{{ student.affiliation }}</p>
+    
   </div>
   {% endif %}
 {% endfor %}
 
+</div>
 
 ### Former Students
 
