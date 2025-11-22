@@ -24,7 +24,14 @@ students:
 - name: "Kimberly Do"
   link: https://kimberlytdo.github.io/
   role: "Research Associate"
-
+- name: "Issac Ting Quan Xian"
+  link: https://zac.wildtingz.com/
+  role: MS Student
+  affiliation: Integrated Design and Media
+  image: assets/images/people/[image filename]
+  tenure: "current"
+  year: 2027
+  
 collaborators:
 - name: "Dr. Javier Hernandez"
   link: https://www.microsoft.com/en-us/research/people/javierh/
