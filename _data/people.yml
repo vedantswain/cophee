@@ -14,6 +14,15 @@ students:
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/dsl.png
   year: 2027
+
+- name: "Issac Ting Quan Xian"
+  link: https://zac.wildtingz.com/
+  role: "MS Student" 
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/itqx.jpg
+  tenure: "current"
+  year: 2027
+  
 ## Template
 # - name: "Full Name"
 #   link: [Personal website or LinkedIn link]
