@@ -22,6 +22,14 @@ students:
   image: assets/images/people/itqx.jpg
   tenure: "current"
   year: 2027
+
+- name: "Scarlett Muyao Wang"
+  link: https://scarlettwang.com/
+  role: "MS Student" 
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/sw.jpg
+  tenure: "current"
+  year: 2027
   
 ## Template
 # - name: "Full Name"
