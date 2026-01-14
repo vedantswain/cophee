@@ -195,6 +195,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  text-align: -webkit-center;
+  align-self: self-start;
+  flex-wrap: wrap;
 
     .core{
       flex-direction: column;
