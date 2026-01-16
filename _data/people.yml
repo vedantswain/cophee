@@ -31,6 +31,14 @@ students:
   tenure: "current"
   year: 2027
   
+- name: "Utkarsh Dristant"
+  link: https://www.linkedin.com/in/utkarshdristant/
+  role: "MS Student" 
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/ud.jpg
+  tenure: "current"
+  year: 2027
+  
 ## Template
 # - name: "Full Name"
 #   link: [Personal website or LinkedIn link]
