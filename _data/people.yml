@@ -38,6 +38,14 @@ students:
   image: assets/images/people/ud.jpg
   tenure: "current"
   year: 2027
+
+- name: "Bhavith Chandra"
+  link: https://www.linkedin.com/in/bhavith-chandra-2a7839274
+  role: "MS Student" 
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/BC.jpg
+  tenure: "current"
+  year: 2027
   
 ## Template
 # - name: "Full Name"
