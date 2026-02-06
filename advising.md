@@ -32,4 +32,4 @@ Each student has a different way to thrive and my job is to find synergy in that
 
 ---
 
-If you would like to think about advising relationships from others' point of view, I highly recommend reading: [Managing your advisor](https://greatresearch.org/2013/08/14/managing-your-advisor/). For learning more about me as a mentor, I encourage you to reach out to people [who have worked with me]({{ site.url }}{{ site.baseurl }}/#people) to get a sense of what my work style feels like in practice.
+Still thinking of emailing me? Might want to read this post: [How to Email a Professor and Actually Get a Response](https://notatechdemo.substack.com/p/how-to-email-a-professor-and-actually). If you would like to think about advising relationships from others' point of view, I highly recommend reading: [Managing your advisor](https://greatresearch.org/2013/08/14/managing-your-advisor/). For learning more about me as a mentor, I encourage you to reach out to people [who have worked with me]({{ site.url }}{{ site.baseurl }}/#people) to get a sense of what my work style feels like in practice.
