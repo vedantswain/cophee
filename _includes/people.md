@@ -35,7 +35,7 @@
 
 ### Former Students
 
-Prof. Das Swain's fellowship at Northeastern allowed him to act as a Principal Investigator on projects and thus supervise and fund some extremely talented student researchers.  We are now looking to build an equally talented, capable, and responsible research group at NYU.
+Prof. Das Swain has mentored students at various capacities from the start of his PhD. Listed below are students he has advised as a PI or co-PI. 
 
 <ul>
   {% for student in site.data.people.students %}

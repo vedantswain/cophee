@@ -2,7 +2,7 @@
 <span id="news"></span>
 
 <!-- pinned -->
-> **🔊 Prospective Students:** Read the [advising statement](/advising) before proceeding. We're looking for 1–2 PhD students for the 2025-26 admission cycle (appointments start in Fall '26) in the [Human-Centered Technology, Innovation & Design](https://engineering.nyu.edu/academics/programs/human-centered-technology-innovation-design-phd) program. If you're interested, please email [Prof. Das Swain](mailto:v.das.swain@nyu.edu). 
+> **🔊 Prospective Students:** Read the [advising statement](/advising) before proceeding. We admit PhD students through the [Human-Centered Technology, Innovation & Design](https://engineering.nyu.edu/academics/programs/human-centered-technology-innovation-design-phd) program. If you're interested, please email [Prof. Das Swain](mailto:v.das.swain@nyu.edu). 
 
 
 <!-- ### Recent News -->
