@@ -47,6 +47,14 @@ students:
   tenure: "current"
   year: 2027
   
+- name: "Ethan Pan"
+  link: https://ethanpany.github.io/
+  role: "UG Student"
+  affiliation: "NYU"
+  image: assets/images/people/ep.png
+  tenure: "current"
+  year: 2027
+
 ## Template
 # - name: "Full Name"
 #   link: [Personal website or LinkedIn link]
