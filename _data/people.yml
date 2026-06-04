@@ -70,6 +70,14 @@ students:
   image: assets/images/people/kkc.jpg
   tenure: "current"
   year: 2027
+
+- name: "Oumaima Bouanani Idrissi"
+  link: https://www.linkedin.com/in/oumaima-bouanani-idrissi-1b5697347/
+  role: "UG Student"
+  affiliation: "NYU"
+  image: assets/images/people/obi.jpg
+  tenure: "current"
+  year: 2027
   
 ## Template
 # - name: "Full Name"
