@@ -27,7 +27,7 @@ students:
   link: https://scarlettwang.com/
   role: "MS Student" 
   affiliation: "Tandon School of Engineering, NYU"
-  image: assets/images/people/sw.jpg
+  image: assets/images/people/sw.png
   tenure: "current"
   year: 2027
   
@@ -37,6 +37,46 @@ students:
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/ud.jpg
   tenure: "former"
+  year: 2027
+
+- name: "Bhavith Chandra"
+  link: https://www.linkedin.com/in/bhavith-chandra-2a7839274
+  role: "MS Student" 
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/BC.jpg
+  tenure: "former"
+  year: 2027
+  
+- name: "Ethan Pan"
+  link: https://ethanpany.github.io/
+  role: "UG Student"
+  affiliation: "NYU"
+  image: assets/images/people/ep.png
+  tenure: "current"
+  year: 2027
+
+- name: "Siddharth Srivastava"
+  link: https://sidfolio.framer.website/
+  role: "MS Student"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/sid.jpg
+  tenure: "current"
+  year: 2027
+
+- name: "Kevin Chow"
+  link: https://kevin-chow.me/
+  role: "Postdoc"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/kkc.jpg
+  tenure: "current"
+  year: 2027
+
+- name: "Oumaima Bouanani Idrissi"
+  link: https://www.linkedin.com/in/oumaima-bouanani-idrissi-1b5697347/
+  role: "UG Student"
+  affiliation: "NYU"
+  image: assets/images/people/obi.jpg
+  tenure: "current"
   year: 2027
   
 ## Template

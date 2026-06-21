@@ -12,7 +12,7 @@
   {% endif %}
   <p><a href="{{ faculty.link }}">{{ faculty.name }}</a></p>
   <p>{{ faculty.role }}</p> 
-  <p>{{ faculty.affiliation }}</p>
+
 </div>
 {% endfor %}
 
@@ -25,7 +25,6 @@
     {% endif %}
     <p><a href="{{ student.link }}">{{ student.name }}</a></p>
     <p>{{ student.role }}</p>
-    <p>{{ student.affiliation }}</p>
     
   </div>
   {% endif %}
