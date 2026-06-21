@@ -36,7 +36,7 @@ students:
   role: "MS Student" 
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/ud.jpg
-  tenure: "former"
+  tenure: "past"
   year: 2027
 
 - name: "Bhavith Chandra"
@@ -44,7 +44,7 @@ students:
   role: "MS Student" 
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/BC.jpg
-  tenure: "former"
+  tenure: "past"
   year: 2027
   
 - name: "Ethan Pan"
