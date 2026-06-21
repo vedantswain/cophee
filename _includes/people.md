@@ -32,20 +32,7 @@
 
 </div>
 
-### Former Students
-
-Prof. Das Swain has mentored students at various capacities from the start of his PhD. Listed below are students he has advised as a PI or co-PI. 
-
-<ul>
-  {% for student in site.data.people.students %}
-  {% if student.tenure == "past" %}
-    <li>
-      <a href="{{ student.link }}">{{ student.name }}</a>
-      &mdash; {{ student.role }}
-    </li>
-  {% endif %}
-  {% endfor %}
-</ul>
+See the full list of [alumni]({{ site.url }}{{ site.baseurl }}/alumni).
 
 ### Collaborators
 
