@@ -16,6 +16,18 @@ defaults:
     values:
       layout: "base"
 
+# Keep repo docs out of the published site so they aren't crawlable
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - node_modules
+
 
 # # Content configuration
 # ## Basic Information

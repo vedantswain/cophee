@@ -2,6 +2,7 @@
 title: Advising
 layout: article
 toc: true
+sitemap: false
 ---
 
 > Last update: 2025-07-14
