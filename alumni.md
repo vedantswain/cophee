@@ -1,6 +1,7 @@
 ---
 title: Alumni
 layout: article
+sitemap: false
 ---
 
 # Alumni
