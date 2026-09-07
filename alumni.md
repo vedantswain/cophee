@@ -9,7 +9,7 @@ Prof. Das Swain has mentored students in the capactity of a PI or Co-PI in NYU a
 
 <ul>
   {% for student in site.data.people.students %}
-  {% if student.tenure == "past" %}
+  {% if student.tenure == "alum" %}
     <li>
       <a href="{{ student.link }}">{{ student.name }}</a>
       &mdash; {{ student.role }}

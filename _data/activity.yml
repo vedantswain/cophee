@@ -1,6 +1,10 @@
-- description: "Nomad Frutas Selectas"
-  link: https://nomadcoffee.es/pages/locales-nomad-coffee-en-barcelona
-  icon: "fa-solid fa-coffee"
+- description: "GLAD Bean-to-Bar Chocolate"
+  link: https://www.beglad.pt/
+  icon: "fa-solid fa-mug-hot"
+
+# - description: "Nomad Frutas Selectas"
+#   link: https://nomadcoffee.es/pages/locales-nomad-coffee-en-barcelona
+#   icon: "fa-solid fa-coffee"
 
 # - description: "GLITCH COFFEE OSAKA"
 #   link: https://g.co/kgs/11WrxyU
