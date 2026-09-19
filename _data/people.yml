@@ -87,6 +87,13 @@ students:
   tenure: "current"
   year: 2027
   
+- name: "Sophia Deng"
+  link: https://www.sophiadeng.com/
+  role: "PhD Student"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/sd.jpg
+  tenure: "current"
+  
 ## Template
 # - name: "Full Name"
 #   link: [Personal website or LinkedIn link]
