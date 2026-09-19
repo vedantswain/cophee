@@ -60,7 +60,7 @@ students:
   role: "MS Student"
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/sid.jpg
-  tenure: "current"
+  tenure: "past"
   year: 2027
 
 - name: "Kevin Chow"
