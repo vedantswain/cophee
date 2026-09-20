@@ -7,6 +7,14 @@ faculty:
 
 students:
 ## Current Students
+- name: "Sophia Deng"
+  link: https://www.sophiadeng.com/
+  role: "PhD Student"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/sd.jpg
+  tenure: "current"
+  year: 2031
+  
 - name: "Taeyoung Yeon"
   link: https://taeyoungyeon.github.io
   role: "PhD Student"
@@ -68,7 +76,7 @@ students:
   role: "MS Student"
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/sid.jpg
-  tenure: "current"
+  tenure: "past"
   year: 2027
 
 - name: "Kevin Chow"
@@ -94,6 +102,7 @@ students:
   image: assets/images/people/bh.png
   tenure: "current"
   year: 2027
+
   
 ## Template
 # - name: "Full Name"
