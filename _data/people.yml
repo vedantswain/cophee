@@ -7,6 +7,14 @@ faculty:
 
 students:
 ## Current Students
+- name: "Taeyoung Yeon"
+  link: https://taeyoungyeon.github.io
+  role: "PhD Student"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/ty.jpg
+  tenure: "current"
+  year: 2031
+
 - name: "Demetri Sebastian Lopez"
   link: https://github.com/Demetri65
   role: "MS Student"
