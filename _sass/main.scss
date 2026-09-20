@@ -193,19 +193,26 @@ footer {
 
 .people {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: -webkit-center;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
   align-self: self-start;
   flex-wrap: wrap;
+  gap: 1.5rem;
 
     .core{
       flex-direction: column;
+      align-items: center;
+      /* Fixed-width cards give uniform spacing; long names wrap */
+      flex: 0 0 140px;
+      width: 140px;
+      gap: 0;
     }
 
     p {
-      margin-left: 1em;
+      margin-left: 0;
       margin-bottom: 0px;
+      overflow-wrap: anywhere;
 
       /* TARGETS THE LAST P TAG */
       &:last-of-type {
