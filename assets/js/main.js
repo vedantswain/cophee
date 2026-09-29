@@ -19,7 +19,7 @@ document.querySelector('.burger').addEventListener('click', function() {
     const navLinks = document.querySelector('.nav-links');
     const hamburger = document.querySelector('.burger');
     const isOpen = navLinks.classList.toggle('open');
-    hamburger.classList.toggle('hidden', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen);
 });
 
 document.addEventListener('click', function(event) {
@@ -30,7 +30,7 @@ document.addEventListener('click', function(event) {
   
     if (!isClickInsideMast) {
       navLinks.classList.remove('open');
-      hamburger.classList.remove('hidden');
+      hamburger.setAttribute('aria-expanded', false);
     }
   });
   
@@ -39,6 +39,9 @@ document.addEventListener('click', function(event) {
       const navLinks = document.querySelector('.nav-links');
       const hamburger = document.querySelector('.burger');
       navLinks.classList.remove('open');
-      hamburger.classList.remove('hidden');
+      hamburger.setAttribute('aria-expanded', false);
     });
   });
+
+// Heading anchors are aria-hidden, so keep them out of the tab order
+document.querySelectorAll('a.anchor').forEach(a => a.setAttribute('tabindex', '-1'));

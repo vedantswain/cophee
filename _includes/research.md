@@ -17,7 +17,7 @@ We leverage interdisciplinary approaches anchored around technological innovatio
         {% for paper_id in item.featured_papers %}
           {% assign paper = site.data.bibliography | where: "id", paper_id | first %}
           {% if paper and paper.external_link %}
-            <a href="{{ site.baseurl }}{{ paper.external_link }}" target="_blank">{{ paper.venue }}</a>{% unless forloop.last %}, {% endunless %}
+            <a href="{{ site.baseurl }}{{ paper.external_link }}" target="_blank" aria-label="{{ paper.title | escape }} ({{ paper.venue }})">{{ paper.venue }}</a>{% unless forloop.last %}, {% endunless %}
           {% endif %}
         {% endfor %}
       </div>
