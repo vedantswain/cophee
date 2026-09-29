@@ -1,6 +1,6 @@
 $primary-color: rgb(76, 76, 76);
 $secondary-color: rgb(52, 52, 52);
-$accent-color: rgb(231, 154, 22);
+$accent-color: #a65f00;
 $border-color: rgb(229, 229, 229);
 
 $padding-offset: 2rem;
@@ -48,12 +48,41 @@ footer {
   padding: 0 $padding-offset;
 }
 
+// Keep the footer under the content column so it can't overlap the fixed header
+@media (min-width: 961px) {
+  footer {
+    position: static;
+    float: right;
+    clear: right;
+    width: 680px;
+  }
+}
+
 // Custom components
 .info-basic {
   margin-top: 0.4rem;
-  position {
+  .position {
     font-weight: 300;
   }
+  h1.position {
+    font-size: 1.15rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    color: inherit;
+  }
+}
+
+.tandon {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+
+.tandon-logo {
+  height: 28px;
+  width: auto;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 .avatar-small {
@@ -119,14 +148,22 @@ footer {
       align-items: center;
     }
 
-    h2 {
-      margin-top: 1rem;
+    .site-title {
+      margin: 1rem 0 0;
       width: 16rem;
       text-align: center;
+      font-size: 1.5em;
+      font-weight: bold;
+      line-height: 1.1;
     }
 
     .burger {
       display: none;
+      background: none;
+      border: 0;
+      padding: 0.25rem;
+      color: $secondary-color;
+      cursor: pointer;
     }
   }
 }
@@ -193,19 +230,26 @@ footer {
 
 .people {
   display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  text-align: -webkit-center;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
   align-self: self-start;
   flex-wrap: wrap;
+  gap: 1.5rem;
 
     .core{
       flex-direction: column;
+      align-items: center;
+      /* Fixed-width cards give uniform spacing; long names wrap */
+      flex: 0 0 140px;
+      width: 140px;
+      gap: 0;
     }
 
     p {
-      margin-left: 1em;
+      margin-left: 0;
       margin-bottom: 0px;
+      overflow-wrap: anywhere;
 
       /* TARGETS THE LAST P TAG */
       &:last-of-type {
@@ -311,13 +355,10 @@ footer {
     width: 100%;
   
     .burger {
-      display: flex; 
+      display: flex;
       align-items: center;
+      align-self: center;
       margin: 0 2rem;
-    }
-
-    .burger.hidden {
-      display: none;
     }
 
     .nav-links {
