@@ -1,0 +1,124 @@
+name: Validate Student Profile PR
+
+on:
+  pull_request:
+    branches: [ dev ]
+    paths:
+      - 'people.yml'
+      - 'assets/images/people/**'
+
+jobs:
+  validate-profile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: pip install pyyaml pillow
+
+      - name: Run Profile and Image Validations
+        run: |
+          python - << 'EOF'
+          import os
+          import re
+          import sys
+          import yaml
+          from PIL import Image
+
+          # EXACT FIELDS FOR YOUR STUDENT SCHEMA
+          REQUIRED_FIELDS = ["name", "role", "affiliation", "image", "tenure"]
+
+          errors = []
+          referenced_images = set()
+
+          # 1. Validate people.yml syntax and student schema
+          yaml_path = "people.yml"
+          if os.path.exists(yaml_path):
+              try:
+                  with open(yaml_path, "r", encoding="utf-8") as f:
+                      data = yaml.safe_load(f)
+                  
+                  if not isinstance(data, dict) or "students" not in data:
+                      errors.append("`people.yml` must contain a top-level `students:` key.")
+                  else:
+                      for idx, student in enumerate(data.get("students", [])):
+                          name = student.get("name", f"Student #{idx+1}")
+
+                          # Check missing required fields
+                          missing = [field for field in REQUIRED_FIELDS if field not in student or str(student[field]).strip() == ""]
+                          if missing:
+                              errors.append(f"Entry '{name}': Missing required field(s): {', '.join(missing)}.")
+
+                          # Validate tenure field
+                          tenure = str(student.get("tenure", "")).strip()
+                          if tenure and tenure not in ["current", "past"]:
+                              errors.append(f"Entry '{name}': `tenure` must be 'current' or 'past' (found '{tenure}').")
+
+                          # Validate link URL format (if provided)
+                          link = student.get("link")
+                          if link and not (str(link).startswith("http://") or str(link).startswith("https://")):
+                              errors.append(f"Entry '{name}': `link` must start with 'http://' or 'https://' (found '{link}').")
+
+                          # Validate image path structure and file presence
+                          img_path = student.get("image")
+                          if img_path:
+                              img_filename = os.path.basename(img_path)
+                              referenced_images.add(img_filename)
+
+                              # Check if path follows 'assets/images/people/filename.ext'
+                              expected_prefix = "assets/images/people/"
+                              if not str(img_path).replace("\\", "/").startswith(expected_prefix):
+                                  errors.append(f"Entry '{name}': `image` path must start with '{expected_prefix}' (found '{img_path}').")
+
+                              # Check exact file existence on disk (case-sensitive)
+                              full_disk_path = os.path.join("assets", "images", "people", img_filename)
+                              if not os.path.isfile(full_disk_path):
+                                  errors.append(
+                                      f"Entry '{name}' in `people.yml` references '{img_filename}', "
+                                      f"but no matching file exists in 'assets/images/people/'. "
+                                      f"Check for extension mismatches (e.g., .jpg vs .jpeg)."
+                                  )
+              except Exception as e:
+                  errors.append(f"`people.yml` syntax error: {e}")
+          else:
+              errors.append("`people.yml` file was not found in repository root.")
+
+          # 2. Validate images on disk
+          img_dir = os.path.join("assets", "images", "people")
+          if os.path.exists(img_dir):
+              for fname in os.listdir(img_dir):
+                  if fname.startswith("."): # Skip hidden files like .gitkeep
+                      continue
+                  
+                  # Check for uploaded images missing from people.yml
+                  if fname not in referenced_images:
+                      errors.append(f"Image 'assets/images/people/{fname}' was uploaded, but is not listed in `people.yml`.")
+
+                  # Filename format check: lowercase, numbers, hyphens only
+                  if not re.match(r"^[a-z0-9\-]+\.(jpg|jpeg|png)$", fname):
+                      errors.append(f"Image '{fname}': Filename must be lowercase with hyphens only (e.g., 'sd.jpg').")
+
+                  # Square ratio check (within 5% tolerance)
+                  fpath = os.path.join(img_dir, fname)
+                  try:
+                      with Image.open(fpath) as img:
+                          w, h = img.size
+                          if abs(w - h) > (max(w, h) * 0.05):
+                              errors.append(f"Image '{fname}': Must have a square aspect ratio (~400x400 px). Current resolution is {w}x{h} px.")
+                  except Exception:
+                      errors.append(f"Image '{fname}': Invalid or unreadable image file.")
+
+          if errors:
+              print("❌ PROFILE VALIDATION FAILED:\n")
+              for err in errors:
+                  print(f"  - {err}")
+              sys.exit(1)
+
+          print("✅ All profile validations passed successfully!")
+          EOF

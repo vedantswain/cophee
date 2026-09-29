@@ -1,0 +1,19 @@
+name: Guard Main Branch Target
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verify-target-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify PR Author Access
+        run: |
+          # Allow repo owner, fail external contributors / forks
+          if [ "${{ github.actor }}" != "${{ github.repository_owner }}" ]; then
+            echo "::error::External contributors must target 'dev'. Please edit your PR base branch to 'dev'."
+            exit 1
+          else
+            echo "PR created by repository owner (${{ github.actor }}). Target 'main' permitted."
+          fi

@@ -7,6 +7,22 @@ faculty:
 
 students:
 ## Current Students
+- name: "Sophia Deng"
+  link: https://www.sophiadeng.com/
+  role: "PhD Student"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/sd.jpg
+  tenure: "current"
+  year: 2031
+  
+- name: "Taeyoung Yeon"
+  link: https://taeyoungyeon.github.io
+  role: "PhD Student"
+  affiliation: "Tandon School of Engineering, NYU"
+  image: assets/images/people/ty.jpg
+  tenure: "current"
+  year: 2031
+
 - name: "Demetri Sebastian Lopez"
   link: https://github.com/Demetri65
   role: "MS Student"
@@ -86,6 +102,7 @@ students:
   image: assets/images/people/bh.png
   tenure: "current"
   year: 2027
+
   
 ## Template
 # - name: "Full Name"
