@@ -103,6 +103,14 @@ students:
   tenure: "current"
   year: 2027
 
+- name: "Ahbab Al Mohammad Siddiquee"
+  link: https://ahbabsiddiquee.com/
+  role: "UG Student"
+  affiliation: "NYU Abu Dhabi"
+  image: assets/images/people/aams.jpg
+  tenure: "current"
+  year: 2027
+
   
 ## Template
 # - name: "Full Name"
