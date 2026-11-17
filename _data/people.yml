@@ -102,6 +102,14 @@ students:
   image: assets/images/people/bh.png
   tenure: "current"
   year: 2027
+  
+- name: "Yeseo Ahn"
+  link: https://hiiamyeseo.netlify.app/
+  role: "UG Student"
+  affiliation: "KAIST / NYU (Exchange Student)"
+  image: assets/images/people/ya.jpg
+  tenure: "current"
+  year: 2028
 
 - name: "Ahbab Al Mohammad Siddiquee"
   link: https://ahbabsiddiquee.com/
