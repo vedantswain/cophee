@@ -59,7 +59,7 @@ students:
   link: https://www.linkedin.com/in/bhavith-chandra-2a7839274
   role: "MS Student" 
   affiliation: "Tandon School of Engineering, NYU"
-  image: assets/images/people/BC.jpg
+  image: assets/images/people/bc.jpg
   tenure: "past"
   year: 2027
   
@@ -100,6 +100,22 @@ students:
   role: "MS Student"
   affiliation: "Tandon School of Engineering, NYU"
   image: assets/images/people/bh.png
+  tenure: "current"
+  year: 2027
+  
+- name: "Yeseo Ahn"
+  link: https://hiiamyeseo.netlify.app/
+  role: "UG Student"
+  affiliation: "KAIST / NYU (Exchange Student)"
+  image: assets/images/people/ya.jpg
+  tenure: "current"
+  year: 2028
+
+- name: "Ahbab Al Mohammad Siddiquee"
+  link: https://ahbabsiddiquee.com/
+  role: "UG Student"
+  affiliation: "NYU Abu Dhabi"
+  image: assets/images/people/aams.jpg
   tenure: "current"
   year: 2027
 
@@ -153,6 +169,9 @@ collaborators:
 - name: "Munmun De Choudhury"
   link: http://www.munmund.net/
   affiliation: "Georgia Tech"
+- name: "Mai El Sherif"
+  link: https://profiles.ucsd.edu/may.elsherif
+  affiliation: "UCSD"
 - name: "Kaely Hall"
   link: https://www.linkedin.com/in/kaely-hall/
   affiliation: "Georgia Tech"
@@ -162,9 +181,15 @@ collaborators:
 - name: "Nick Jacobson"
   link: https://www.nicholasjacobson.com/
   affiliation: "Dartmouth"
+- name: "Ravi Karkar"
+  link: https://ravikarkar.com/
+  affiliation: "UMass Amherst"
 - name: "Jennifer G. Kim"
   link: https://faculty.cc.gatech.edu/~jkim693/
   affiliation: "Georgia Tech"
+- name: "Alden Lai"
+  link: https://publichealth.nyu.edu/faculty/alden-lai
+  affiliation: "NYU"
 - name: "Uichin Lee"
   link: https://ic.kaist.ac.kr/
   affiliation: "KAIST"
@@ -174,6 +199,9 @@ collaborators:
 - name: "Koustuv Saha"
   link: https://koustuv.com/
   affiliation: "UIUC"
+- name: "Hua Shen"
+  link: https://hua-shen.org/
+  affiliation: "NYU Shanghai"
 - name: "Qiaosi Wang"
   link: https://www.qiaosiwang.me/
   affiliation: "UC Berkeley"
