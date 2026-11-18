@@ -1,6 +1,10 @@
-- description: "GLAD Bean-to-Bar Chocolate"
-  link: https://www.beglad.pt/
+- description: "Texie Coffee"
+  link: https://www.instagram.com/p/DcS6W-LE4X9/?img_index=3
   icon: "fa-solid fa-mug-hot"
+
+# - description: "GLAD Bean-to-Bar Chocolate"
+#   link: https://www.beglad.pt/
+#   icon: "fa-solid fa-mug-hot"
 
 # - description: "Nomad Frutas Selectas"
 #   link: https://nomadcoffee.es/pages/locales-nomad-coffee-en-barcelona
